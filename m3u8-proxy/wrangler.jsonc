@@ -1,0 +1,12 @@
+{
+	"name": "m3u8-proxy",
+	"compatibility_date": "2025-04-16",
+	"main": "src/index.js",
+	// This tells Wrangler where your entry script is located (in the src folder).
+	"env": {
+	  "production": {
+		"main": "src/index.ts"
+	  }
+	}
+  }
+  

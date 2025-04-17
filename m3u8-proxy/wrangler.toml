@@ -1,0 +1,8 @@
+name = "m3u8-proxy"  # Your worker's name
+compatibility_date = "2025-04-16"
+
+[build]
+  command = "npm install"  # or any other build command if required
+
+[env.production]
+  main = "src/index.js"  # Make sure this points to the correct file
